@@ -1,0 +1,57 @@
+.good-item {
+  width: 220px;
+  height: 260px;
+  padding: 35px 23px 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 60px;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+.good-item:hover {
+  filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.25));
+}
+.good-item span {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.good-img {
+  display: block;
+  width: 167px;
+  height: 115px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.good-title {
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.good-country {
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+
+  color: #000000;
+}
+.good-price {
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+
+  color: #000000;
+}

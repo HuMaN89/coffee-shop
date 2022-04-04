@@ -1,0 +1,67 @@
+.search-panel {
+  display: flex;
+  max-width: 680px;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.search-panel label {
+  flex-grow: 3;
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.search-panel input {
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 20px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.search-panel span {
+  display: block;
+  margin: auto;
+  text-align: right;
+  flex-grow: 2;
+
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.search-panel button {
+  width: 75px;
+  height: 30px;
+  padding: 7px 9px 5px;
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}

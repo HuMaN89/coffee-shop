@@ -1,0 +1,12 @@
+.header {
+  max-width: 1440px;
+  margin: auto;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  width: 35px;
+  bottom: -5px;
+  left: -5px;
+}
