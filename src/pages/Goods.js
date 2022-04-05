@@ -5,7 +5,7 @@ import Cup from "../img/cup.png";
 import Line from "../img/Line.png";
 import GoodList from "../components/goods-list/Good-list";
 
-const Goods = () => {
+const Goods = (props) => {
   return (
     <>
       <Title title="For your pleasure" />
@@ -33,7 +33,7 @@ const Goods = () => {
           />
         </Row>
         <Row>
-          <GoodList />
+          <GoodList data={props.data} />
         </Row>
       </Container>
     </>

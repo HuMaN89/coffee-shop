@@ -1,5 +1,5 @@
 .home-title {
-  width: 1440px;
+  max-width: 1440px;
   background: url(../../img/home_bg.jpg) no-repeat;
   height: 640px;
   text-align: center;

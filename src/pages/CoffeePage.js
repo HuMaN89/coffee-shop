@@ -5,10 +5,10 @@ import Girl from "../img/girl.png";
 import Line from "../img/Line.png";
 import SearcPanel from "../components/search-panel/SearcPanel";
 import GoodList from "../components/goods-list/Good-list";
-const CoffePage = () => {
+const CoffePage = (props) => {
   return (
     <>
-      <Title title="Our Coffee" />
+      <Title title="Our Coffee" page="coffee" />
       <Container>
         <Row>
           <Col xl="2"></Col>
@@ -28,10 +28,10 @@ const CoffePage = () => {
           />
         </Row>
         <Row>
-          <SearcPanel />
+          <SearcPanel onUpdateProps={props.onUpdateProps} />
         </Row>
         <Row>
-          <GoodList />
+          <GoodList data={props.data} />
         </Row>
       </Container>
     </>
